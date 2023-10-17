@@ -1,0 +1,10 @@
+name: TNTTimer
+version: '${project.version}'
+main: me.theadminhammer.tnttimer.TNTTimer
+api-version: '1.16'
+
+commands:
+  tnttimer:
+    description: Reloads the TNTTimer plugin
+    usage: /tnttimer reload
+    permission: tnttimer.reload
